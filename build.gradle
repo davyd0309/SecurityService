@@ -27,7 +27,7 @@ dependencies {
 group = 'pl.dawydiuk'
 version = '0.0.1-SNAPSHOT'
 description = 'SecurityService'
-sourceCompatibility = '1.11'
+sourceCompatibility = '1.8'
 
 publishing {
     publications {
