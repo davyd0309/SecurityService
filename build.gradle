@@ -1,11 +1,11 @@
+plugins {
+    id 'java'
+}
+
 group = 'pl.dawydiuk'
 version = '0.0.1-SNAPSHOT'
 description = 'SecurityService'
 sourceCompatibility = '11'
-
-plugins {
-    id 'java'
-}
 
 repositories {
     mavenLocal()
