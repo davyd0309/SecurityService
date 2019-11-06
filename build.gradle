@@ -1,12 +1,15 @@
+group = 'pl.dawydiuk'
+version = '0.0.1-SNAPSHOT'
+description = 'SecurityService'
+sourceCompatibility = '11'
+
 plugins {
     id 'java'
 }
 
 repositories {
     mavenLocal()
-    maven {
-        url = 'http://repo.maven.apache.org/maven2'
-    }
+    mavenCentral()
 }
 
 dependencies {
@@ -18,11 +21,6 @@ dependencies {
     compile 'javax.xml.bind:jaxb-api:2.1'
     testCompile 'org.springframework.boot:spring-boot-starter-test:2.1.0.RELEASE'
 }
-
-group = 'pl.dawydiuk'
-version = '0.0.1-SNAPSHOT'
-description = 'SecurityService'
-sourceCompatibility = '1.8'
 
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
